@@ -1,4 +1,4 @@
-export const dynamic = "auto";
+export const dynamic = "force-dynamic";
 
 import { HeroSection } from "@/components/HeroSection";
 import { AboutMe } from "@/components/AboutMe";
