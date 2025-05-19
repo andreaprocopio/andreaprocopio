@@ -44,7 +44,7 @@ export function RecentProjects() {
               technologies={[
                 {
                   alt: "Next.js",
-                  img: "/next.js.svg",
+                  img: "/Next.js.svg",
                 },
                 {
                   alt: "React.js",
@@ -85,7 +85,7 @@ export function RecentProjects() {
               technologies={[
                 {
                   alt: "Next.js",
-                  img: "/next.js.svg",
+                  img: "/Next.js.svg",
                 },
                 {
                   alt: "React.js",
