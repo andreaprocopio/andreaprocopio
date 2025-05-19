@@ -1,3 +1,5 @@
+export const dynamic = "auto";
+
 import { HeroSection } from "@/components/HeroSection";
 import { AboutMe } from "@/components/AboutMe";
 import { RecentProjects } from "@/components/RecentProjects";
