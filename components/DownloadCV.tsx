@@ -6,12 +6,14 @@ import { Download } from "lucide-react";
 
 const DownloadCV = () => {
   const handleDownload = () => {
-    const link = document.createElement("a");
-    link.href = "/andreaprocopio_curriculum.pdf";
-    link.download = "andreaprocopio_curriculum.pdf";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    if (typeof window !== "undefined") {
+      const link = document.createElement("a");
+      link.href = "/andreaprocopio_curriculum.pdf";
+      link.download = "andreaprocopio_curriculum.pdf";
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
   };
 
   return (

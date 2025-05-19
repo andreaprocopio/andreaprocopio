@@ -12,6 +12,12 @@ const roboto = Roboto({
 export const metadata: Metadata = {
   title: "Andrea Procopio",
   description: "Andrea Procopio's portfolio landing page.",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon-32x32.png",
+    apple: "/apple-touch-icon.png",
+  },
+  manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({
