@@ -73,7 +73,7 @@ export const FloatingNav = ({
             <span className="hidden sm:block text-sm">{navItem.name}</span>
 
             {/* Animated underline */}
-            <span className="absolute -bottom-1 left-0 right-0 h-0.5 origin-left scale-x-0 bg-indigo-500 transition-transform duration-300 ease-out group-hover:scale-x-100" />
+            <span className="absolute -bottom-1 left-0 right-0 h-0.5 origin-left scale-x-0 bg-blue-500 transition-transform duration-300 ease-out group-hover:scale-x-100" />
           </Link>
         ))}
       </motion.div>

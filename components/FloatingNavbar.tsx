@@ -1,13 +1,7 @@
 "use client";
 import React from "react";
 import { FloatingNav } from "./ui/floating-navbar";
-import {
-  ArrowUpToLine,
-  UserRound,
-  FolderKanban,
-  Cpu,
-  Mail,
-} from "lucide-react";
+import { ArrowUpToLine, UserRound, FolderKanban, Mail } from "lucide-react";
 
 export function FloatingNavbar() {
   const navItems = [
@@ -29,11 +23,6 @@ export function FloatingNavbar() {
       icon: (
         <FolderKanban className="h-4 w-4 text-neutral-500 dark:text-white" />
       ),
-    },
-    {
-      name: "Tech stack",
-      link: "#tech-stack",
-      icon: <Cpu className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {
       name: "Contacts",
