@@ -8,8 +8,8 @@ const DownloadCV = () => {
   const handleDownload = () => {
     if (typeof window !== "undefined") {
       const link = document.createElement("a");
-      link.href = "/andreaprocopio_curriculum.pdf";
-      link.download = "andreaprocopio_curriculum.pdf";
+      link.href = "/curriculum_andreaprocopio_2025_eng.pdf";
+      link.download = "curriculum_andreaprocopio_2025_eng.pdf";
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
