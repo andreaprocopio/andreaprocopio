@@ -4,19 +4,19 @@ import { PinContainer } from "./ui/3d-pin";
 import Image from "next/image";
 import SectionTitle from "./SectionTitle";
 import Technologies from "./Technologies";
+import { containerSpacingClassnames, cn } from "@/lib/utils";
 
 export function RecentProjects() {
   return (
     <div
-      className="max-w-7xl mx-auto w-full p-8 pt-28 scroll-mt-24"
+      className={cn("max-w-7xl mx-auto w-full", containerSpacingClassnames)}
       id="recent-work"
     >
       <SectionTitle
         title="Recent Projects"
         subtitle="A glimpse into some of the most impactful work I've done lately"
       />
-      <div className="my-20 md:my-24"></div>
-      <div className="flex flex-wrap gap-32 justify-center p-4">
+      <div className="flex flex-wrap gap-32 justify-center p-4 py-12 md:py-20">
         <PinContainer
           title="ClarityFlow"
           href="https://clarity-flow-seven.vercel.app/"

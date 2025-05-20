@@ -5,6 +5,7 @@ import SectionTitle from "./SectionTitle";
 import { Github, Linkedin } from "lucide-react";
 import CopyEmail from "./CopyEmail";
 import DownloadCV from "./DownloadCV";
+import { containerSpacingClassnames, cn } from "@/lib/utils";
 
 const socialLinks = [
   {
@@ -22,14 +23,14 @@ const socialLinks = [
 const Contacts = () => {
   return (
     <div
-      className="max-w-7xl mx-auto w-full p-8 pt-20 md:pt-40 scroll-mt-24"
+      className={cn("max-w-7xl mx-auto w-full", containerSpacingClassnames)}
       id="contacts"
     >
       <SectionTitle
         title="My contacts"
         subtitle="Essential details to get in touch with me"
       />
-      <div className="mt-10 grid grid-cols-2 sm:grid-cols-4 gap-8 justify-center items-center">
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 justify-center items-center">
         <CopyEmail />
         <DownloadCV />
         {socialLinks.map((link) => (

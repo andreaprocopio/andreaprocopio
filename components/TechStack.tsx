@@ -3,10 +3,11 @@
 import React from "react";
 import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
 import SectionTitle from "./SectionTitle";
+import { containerSpacingClassnames, cn } from "@/lib/utils";
 
 export function TechStack() {
   return (
-    <div id="tech-stack" className="scroll-mt-24 my-20 md:my-28">
+    <div id="tech-stack" className={cn(containerSpacingClassnames, "!px-0")}>
       <div className="flex flex-col gap-12 antialiased border-y bg-black/20 dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden py-12">
         <div className="max-w-7xl mx-auto w-full px-8">
           <SectionTitle

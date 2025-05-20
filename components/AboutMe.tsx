@@ -4,11 +4,12 @@ import React from "react";
 import { WobbleCard } from "./ui/wobble-card";
 import Image from "next/image";
 import SectionTitle from "./SectionTitle";
+import { containerSpacingClassnames, cn } from "@/lib/utils";
 
 export function AboutMe() {
   return (
     <div
-      className="max-w-7xl mx-auto w-full p-8 pt-20 md:pt-32 scroll-mt-24"
+      className={cn("max-w-7xl mx-auto w-full", containerSpacingClassnames)}
       id="about-me"
     >
       <SectionTitle
