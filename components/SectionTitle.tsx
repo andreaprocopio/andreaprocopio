@@ -9,7 +9,7 @@ interface SectionTitleProps {
 
 const SectionTitle = ({ title, subtitle }: SectionTitleProps) => {
   return (
-    <div className="space-y-2 my-10 md:mb-14">
+    <div className="space-y-2">
       <TypographyH2 text={title} />
       <TypographyMuted className="md:text-base" text={subtitle} />
     </div>

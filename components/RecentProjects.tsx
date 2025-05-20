@@ -8,7 +8,7 @@ import Technologies from "./Technologies";
 export function RecentProjects() {
   return (
     <div
-      className="max-w-7xl mx-auto w-full p-8 pt-32 scroll-mt-24"
+      className="max-w-7xl mx-auto w-full p-8 pt-28 scroll-mt-24"
       id="recent-work"
     >
       <SectionTitle
