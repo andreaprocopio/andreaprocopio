@@ -43,7 +43,7 @@ export function AboutMe() {
           />
         </WobbleCard>
         <WobbleCard containerClassName="col-span-1 min-h-[300px] bg-emerald-800">
-          <h2 className="max-w-80 text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+          {/* <h2 className="max-w-80 text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
             Based in Milan 🇮🇹🍝 — Relocating to Dublin 🇮🇪.
           </h2>
           <p className="mt-4 max-w-[26rem] text-left text-base/6 text-neutral-200">
@@ -53,8 +53,8 @@ export function AboutMe() {
             my front-end expertise in one of Europe’s most dynamic tech hubs.
             I’m fully available and ready to join <b>on-site teams in Dublin</b>
             .
-          </p>
-          {/* <h2 className="max-w-80  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+          </p> */}
+          <h2 className="max-w-80  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
             Based in Milan 🇮🇹🍝 Open to Relocation.
           </h2>
           <p className="mt-4 max-w-[26rem] text-left text-base/6 text-neutral-200">
@@ -63,7 +63,7 @@ export function AboutMe() {
             also <b>open to relocation</b> opportunities across{" "}
             <b>Europe and beyond</b>. I believe great challenges know no
             borders, and I’m excited to see where my skills can take me next.
-          </p> */}
+          </p>
         </WobbleCard>
         <WobbleCard containerClassName="col-span-1 lg:col-span-3 bg-cyan-900 min-h-[500px] lg:min-h-[600px] xl:min-h-[300px]">
           <div className="max-w-sm">
